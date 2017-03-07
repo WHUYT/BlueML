@@ -5,6 +5,7 @@ $(function () {
     remove_or_show_nav_buttons();
 
     $('#Slide').slider({});
+    $('[data-toggle="tooltip"]').tooltip();
 });
 
 
